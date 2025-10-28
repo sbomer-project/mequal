@@ -2,6 +2,6 @@
     "revision": "v1.0.0",
     "roots": ["mequal"],
     "metadata": {
-        "source": "https://github.com/project-ncl/mequal"
+        "source": "https://github.com/sbomer-project/mequal"
     }
 }
