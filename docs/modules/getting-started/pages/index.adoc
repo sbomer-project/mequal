@@ -12,7 +12,7 @@ We can easily start editing the source code and maybe even adding some policies 
 
 [source,bash]
 ----
-$ git clone https://github.com/project-ncl/mequal.git
+$ git clone https://github.com/sbomer-project/mequal.git
 $ cd mequal
 $ podman build -t mequal -f ./container_files/Containerfile .
 ----

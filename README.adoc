@@ -23,13 +23,13 @@ Curious?
 
 == Documentation
 
-Documentation is link:https://project-ncl.github.io/mequal/[available here].
+Documentation is link:https://sbomer-project.github.io/mequal/[available here].
 
 == Mequal Policy Bundles
 
 This repository also contains an initial set of starter policies written for Mequal and includes the Containerfiles to build images to evalation these policies either in CLI or as a server. Both methods currently rely on link:https://www.openpolicyagent.org[OpenPolicyAgent (OPA)] in the background for evaluation.
 
-For more information on Mequal please visit the link:https://project-ncl.github.io/mequal/[documentation page].
+For more information on Mequal please visit the link:https://sbomer-project.github.io/mequal/[documentation page].
 
 Disclaimer: These policies are currently random and only for example purposes
 
@@ -84,4 +84,4 @@ curl -X POST http://localhost:8181/v1/query -d '{ "query": "pretty=data.mequal.m
 ----
 
 [TIP]
-For more detailed information on how to get started, please visit the link:https://project-ncl.github.io/mequal/docs/latest/getting-started/index.html[Mequal Getting Started] page.
+For more detailed information on how to get started, please visit the link:https://sbomer-project.github.io/mequal/docs/latest/getting-started/index.html[Mequal Getting Started] page.

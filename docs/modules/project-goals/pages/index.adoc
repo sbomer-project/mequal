@@ -1,5 +1,5 @@
 //Refs
-:fn-sbomer-ref: footnote:sbomer[https://github.com/project-ncl/sbomer[SBOMer]]
+:fn-sbomer-ref: footnote:sbomer[https://github.com/sbomer-project/sbomer[SBOMer]]
 :fn-trustify-ref: footnote:trustify[https://github.com/trustification/trustify[trustify]]
 
 = Project Goals
