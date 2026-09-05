@@ -32,7 +32,7 @@ RUN bash ./scripts/manifest_revision.sh $MANIFEST_REVISION && \
 RUN ls -l ./bundle/mequal_policies.tar.gz
 
 # Stage 2: Final runtime image
-FROM registry.access.redhat.com/ubi9/ubi-minimal@sha256:a50731d3397a4ee28583f1699842183d4d24fadcc565c4688487af9ee4e13a44 AS final
+FROM registry.access.redhat.com/ubi9/ubi-minimal@sha256:7fbeae18dc9476399f565e68255f602a3374ea8614ba3d14843565131a13ff93 AS final
 
 # Set up working directory
 WORKDIR /home/mequal
