@@ -1,6 +1,6 @@
 # Stage 1: Builder
 # Use the original UBI9 image to build the policy bundle
-FROM registry.access.redhat.com/ubi9/ubi@sha256:53d6c19d664f4f418ce5c823d3a33dbb562a2550ea249cf07ef10aa063ace38f AS builder
+FROM registry.access.redhat.com/ubi9/ubi@sha256:206b65b8ee0f04b992818c9a51b29081b14974630d4850bc358097d0c44ea156 AS builder
 
 ARG MANIFEST_REVISION=latest
 WORKDIR /home/mequal
